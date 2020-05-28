@@ -24,7 +24,7 @@
         delete-message="@lang('flash.common.confirmation.destroy')"
         url-create="{{ route('admin.admin-users.create') }}"
         label-create="@lang('links.common.create')"
-    />
+    ></data-list>
 
     <template id="data-list" slot-scope="modelScope">
         <div>

@@ -10,3 +10,4 @@
 /** Users */
 Route::get('admin-users', 'AdminUserController@pagination')->name('admin-users');
 Route::get('client-users', 'ClientUserController@pagination')->name('client-users');
+Route::get('landing-pages', 'LandingPageController@pagination')->name('landing-pages');

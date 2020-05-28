@@ -7,14 +7,15 @@ window._ = require('lodash')
  */
 
 try {
-    window.$ = window.jQuery = require('jquery/dist/jquery')
+    window.$ = window.jQuery = require('jquery/dist/jquery');
     window.bsCustomFileInput = require('bs-custom-file-input/dist/bs-custom-file-input');
     require('bootstrap/dist/js/bootstrap')
     require('jquery.nicescroll/dist/jquery.nicescroll')
     require('jquery-mask-plugin/dist/jquery.mask.min.js');
     require('select2/dist/js/select2')
     require('select2/dist/js/i18n/pt-BR')
-} catch (e) {}
+} catch (e) {
+}
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
